@@ -53,6 +53,4 @@ public abstract class Produto{
 
   public abstract String getDescricao();
 
-  public abstract Double calcularGarantia(int anosDeGarantia);
-
 }

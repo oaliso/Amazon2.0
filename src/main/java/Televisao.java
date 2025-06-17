@@ -2,7 +2,7 @@ public class Televisao extends Produto{
  private int polegadas;
  private String resolucao;
 
- public Televisao(int id, String marca, String modelo, Double preco, int polegadas, String resolucao){
+ public Televisao(int id, String marca, String modelo, Double preco, int polegadas){
   super(id, marca, modelo, preco);
   this.polegadas = polegadas;
   this.resolucao = resolucao;
